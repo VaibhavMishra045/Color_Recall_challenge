@@ -1,0 +1,187 @@
+/* body {
+  text-align: center;
+  background-color: rgba(113, 7, 7, 0.86);
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  margin: 0;
+  padding: 50px;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin: 5% 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.game-over {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  transform: scale(0.95);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+  
+  .btn {
+    width: 120px;
+    height: 120px;
+  }
+  
+  #level-title {
+    font-size: 2rem;
+  }
+}
+
+ */
+
+ body {
+  text-align: center;
+  background-color: rgba(11, 241, 211, 0.86);
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  margin: 0;
+  padding: 50px;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin: 5% 0;
+  color: black;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.game-over {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  transform: scale(0.95);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 80vh; /* 80% of viewport height */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center; /* Center vertically */
+  }
+  
+  .btn {
+    width: 25vw; /* 25% of viewport width */
+    height: 25vw; /* 25% of viewport width */
+    max-width: 150px; /* Maximum width for buttons */
+    max-height: 150px; /* Maximum height for buttons */
+    margin: 15px; /* Increased margin for better spacing */
+  }
+  
+  #level-title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 468px) {
+  .container {
+    height: 80vh; /* 80% of viewport height */
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center; /* Center vertically */
+  }
+  
+  .btn {
+    width: 30vw; /* 30% of viewport width */
+    height: 30vw; /* 30% of viewport width */
+    max-width: 100px; /* Maximum width for buttons */
+    max-height: 100px; /* Maximum height for buttons */
+    margin: 8px; /* Increased margin for better spacing */
+  }
+  
+  #level-title {
+    font-size: 1.5rem;
+  }
+}
+
